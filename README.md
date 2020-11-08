@@ -28,6 +28,6 @@ And linear regression was applied for the above info in Northern and Southern He
 4. We can see the most cities have higher humidity as shown below. This script got the random latitudes and longtitudes between (-90 to 90) and (-180 to 180). However, the **main defect** of this theoretical assumption is that **most area on the earth is covered by ocean where has much fewer cities than the continents**. ``citipy`` only get the closest city of the random coordinates. When it comes to the ocean coordinates, all cities along the coastline would be collected into the dataframe. Those cities are highly humid **due to the ocean currents**, resulting in the relatively higher humidity scatter points in this dataset.
 <img src="https://github.com/kk-deng/PythonAPI-Challenge/blob/main/Images/Fig_2.png?raw=true" border="0">
 
-A world map of all analyzed cities is shown in the notebook and readme file to prove this analysis. 
+**A world map of all analyzed cities** is shown in the notebook and readme file to prove this analysis. 
 
 5. A correlation matrix was generated. Most columns have not strong relationship with each other. However, the Max temp shows a correlated relationship with Latitude (r = -0.67468).
