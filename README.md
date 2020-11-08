@@ -12,6 +12,7 @@ This script generates data of 500+ cities with following info:
 
 And linear regression was applied for the above info in Northern and Southern Hemispheres.
 
+*Analyzed cities on the world map:*
 <img src="https://github.com/kk-deng/PythonAPI-Challenge/blob/main/Images/worldmap.png?raw=true" border="0">
 
 ## Observations and Insights
